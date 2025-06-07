@@ -18,20 +18,24 @@ Este proyecto muestra un archivo HTML estático con **Nginx** dentro de un conte
 ### 1️⃣ Clonar el repositorio
 
 ```bash
-git clone 
+git clone https://github.com/Lu-Schiaffi/Ingenieria-Software.git
+```
+
+### 2️⃣ Ubicarse en la carpeta del proyecto
+```bash
 cd docker-git
 ```
 
-### 2️⃣ Construir la imagen Docker
+### 3️⃣ Construir la imagen Docker
 
 ```bash
 docker build -t nginx-template .
 ```
 
-### 3️⃣ Ejecutar el contenedor
+### 4️⃣ Ejecutar el contenedor
 
 ```bash
-docker run -d -p 8080:80 --name 
+docker run -d -p 8080:80 --name YOUR_USER_NAME nginx-template
 ```
 
 ### 4️⃣ Verificar el funcionamiento
