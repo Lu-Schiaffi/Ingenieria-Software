@@ -38,7 +38,7 @@ docker build -t nginx-template .
 docker run -d -p 8080:80 --name YOUR_USER_NAME nginx-template
 ```
 
-### 4️⃣ Verificar el funcionamiento
+### 5️⃣ Verificar el funcionamiento
 
 Abrí tu navegador y visitá:
 
